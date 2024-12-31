@@ -1,0 +1,8 @@
+.name-button {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.name-button:hover {
+  text-decoration: underline;
+}

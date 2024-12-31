@@ -1,0 +1,19 @@
+.create-post-container {
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  width: 100%;
+  background-color: var(--secondary-interaction);
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.3em;
+  gap: 1.5em;
+}
+
+.slideshow-container {
+  padding: 12px;
+  padding-top: 0;
+  text-align: center;
+}

@@ -1,0 +1,46 @@
+.post-container {
+  background-color: var(--primary-bg-acc);
+  border-bottom: 1px solid grey;
+  width: 100%;
+}
+
+.post-text {
+  padding: 7px 0px;
+  line-height: 1.4em;
+}
+
+.slideshow-container {
+  padding: 12px;
+  padding-top: 0;
+  text-align: center;
+}
+
+.post-info-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post-info-button {
+  flex: 1;
+  background: none;
+  border: none;
+  color: var(--text-color);
+  font-size: clamp(0.9rem, -0.875rem + 4.333vw, 1.12rem);
+  font-weight: 300;
+  padding: 10px;
+  text-align: center;
+  background-color: var(--secondary-interaction);
+}
+
+.post-info-button:hover {
+  background-color: var(--primary-interaction);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.post-info-icon {
+  vertical-align: top;
+}
+
+.additional-info-container {
+}

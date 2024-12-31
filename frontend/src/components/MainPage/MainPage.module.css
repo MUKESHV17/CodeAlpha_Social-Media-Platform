@@ -1,0 +1,21 @@
+.main-page {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: var(--primary-background);
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.content-container {
+  flex-basis: 800px;
+  flex-shrink: 1;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  background-color: var(--primary-bg-acc);
+}
+
+@media (max-width: 400px) {
+  .content-container {
+    border: none;
+  }
+}

@@ -1,0 +1,6 @@
+.attachments-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}

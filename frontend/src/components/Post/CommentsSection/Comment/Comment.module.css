@@ -1,0 +1,32 @@
+.comment-container {
+  font-size: clamp(0.8rem, -0.875rem + 4.333vw, 1rem);
+
+  margin-right: 5px;
+  display: flex;
+}
+
+.comment-container > .profile-pic-container {
+  padding: 5px;
+}
+
+.comment-container .comment {
+  padding: 10px 10px;
+  background-color: var(--secondary-background);
+  border-radius: 1.1rem;
+  line-height: 15px;
+}
+
+.comment-container .right-section {
+  flex: 1;
+  margin: 8px 0px;
+}
+
+.comment-container .right-section .comment-header-info {
+  margin-left: 7px;
+  display: flex;
+  gap: 12px;
+  padding-bottom: 0.2rem;
+}
+
+@media (max-width: 400px) {
+}

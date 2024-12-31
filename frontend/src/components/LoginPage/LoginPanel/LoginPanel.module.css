@@ -1,0 +1,37 @@
+.login-panel {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-heading-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.login-heading {
+  font-size: 3rem;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.create-account-button {
+  color: var(--primary-acc);
+  font-weight: 600;
+}
+
+.create-account-button:hover {
+  color: var(--primary-button-color-inv);
+}
+hr {
+  width: 100%;
+}

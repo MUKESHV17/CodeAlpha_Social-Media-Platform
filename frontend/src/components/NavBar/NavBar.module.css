@@ -1,0 +1,27 @@
+.nav-bar {
+  position: sticky;
+  padding: 10px;
+  top: 10px;
+  z-index: 100;
+  align-self: flex-start;
+}
+
+.nav-bar svg {
+  color: var(--primary-accent);
+  width: clamp(20px, 30vw, 45px);
+}
+
+@media screen and (max-width: 400px) {
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--primary-background);
+    height: 50px;
+    position: fixed;
+    top: initial;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}

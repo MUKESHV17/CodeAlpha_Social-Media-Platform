@@ -1,0 +1,68 @@
+.change-profile-pic {
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px var(--primary-accent) solid;
+}
+
+.pic-form > select {
+  border-radius: 1.5rem;
+}
+
+.pic-form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.option-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button-container > button {
+  background-color: var(--primary-acc);
+  padding: 8px 10px;
+  border-radius: 1.2rem;
+}
+
+.button-container > button:hover {
+  background-color: var(--primary-accent);
+  transition: 0.5s;
+}
+
+.button-container > button:first-child {
+  background-color: rgb(156, 50, 50);
+}
+
+.button-container > button:first-child:hover {
+  background-color: rgb(165, 40, 40);
+}
+
+.button-container > button:nth-child(2) {
+  background-color: grey;
+}
+
+.button-container > button:nth-child(2):hover {
+  background-color: rgb(66, 66, 66);
+}

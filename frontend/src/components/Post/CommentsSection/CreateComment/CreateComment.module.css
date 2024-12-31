@@ -1,0 +1,45 @@
+.create-comment-container {
+  display: flex;
+  padding: 7px 12px;
+  background-color: #090616;
+}
+
+.create-comment-container > .profile-pic-container {
+  margin: 5px 5px;
+}
+
+.form-container {
+  display: flex;
+  width: 100%;
+}
+
+.create-comment-container .input-container {
+  margin: 7px 0px;
+  font-size: clamp(0.8rem, -0.875rem + 4.3vw, 1rem);
+  line-height: 15px;
+}
+
+.create-comment-container .input-container > .input {
+  border: none;
+  outline: none;
+  cursor: text;
+  overflow-wrap: anywhere;
+}
+
+.create-comment-container > button {
+  font-size: 23px;
+  color: grey;
+}
+
+.create-comment-container > button:hover {
+  color: var(--primary-accent);
+}
+
+.create-comment-container .right-section {
+  flex: 1;
+  margin: 7px 3px;
+}
+
+.comment-button {
+  margin: 5px 10px;
+}

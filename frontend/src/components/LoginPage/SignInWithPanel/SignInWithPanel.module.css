@@ -1,0 +1,21 @@
+.sign-in-with-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sign-in-with {
+  justify-content: center;
+  flex: 1;
+  display: flex;
+  gap: 7px;
+  background-color: white;
+  color: black;
+  padding: 10px 7px;
+  font-size: 1rem;
+}
+
+.sign-in-with:hover {
+  background-color: var(--primary-acc);
+  color: var(--primary-button-color-inv);
+}

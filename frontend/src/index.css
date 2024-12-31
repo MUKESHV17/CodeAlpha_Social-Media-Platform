@@ -1,0 +1,105 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary-background);
+  color: var(--text-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --primary-bg-acc: #131313;
+  --primary-background: #000000;
+  --secondary-background: #131313;
+  --primary-accent: #4c30b3;
+  --primary-interaction: #110731;
+  --secondary-interaction: #090616;
+  --primary-acc: #307ab3;
+  --dark-accent: #448900;
+  --text-color: #f3f3f3;
+  --placeholder-text-color: #f3f3f37e;
+  --darkened-text-color: #f3f3f3a6;
+  --primary-button-color: #0000ff;
+  --primary-button-color-inv: #fff;
+  --bad-button-color: #9c3232;
+  --bad-button-color-dark: rgba(255, 0, 0, 0.404);
+}
+
+button {
+  font-weight: 600;
+  border: none;
+  background: none;
+  color: var(--text-color);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+div[placeholder]:empty:before {
+  content: attr(placeholder);
+  color: var(--placeholder-text-color);
+}
