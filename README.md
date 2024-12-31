@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # social-media-app
 
 [LIVE APP](https://main.d1l2zslx6rge0v.amplifyapp.com/login)
@@ -34,3 +35,6 @@ The use of these technologies and tools demonstrates the project's focus on effi
 - [x] Implement async/await functions
 - [x] Learn how to validate incoming request 
 
+=======
+# CodeAlpha_Social-Media-Platform
+>>>>>>> origin/main
